@@ -7,7 +7,7 @@ let expo = new Expo({ accessToken: process.env.EXPO_ACCESS_TOKEN });
 // Create the messages that you want to send to clients
 let messages = [];
 // Add your usertoken database instead of directly typing the tokens
-let somePushTokens = ["ExponentPushToken[jA7ugBLr_B0Qq6wtDqvssE]"];
+let somePushTokens = ["{yourExpoToken}"];
 for (let pushToken of somePushTokens) {
   // Each push token looks like ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]
 
